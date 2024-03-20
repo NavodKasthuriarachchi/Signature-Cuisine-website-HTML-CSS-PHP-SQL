@@ -1,0 +1,177 @@
+
+
+/* NAVIGATION BAR ...................................................................................................................................................*/
+ /* Navbar container */
+ .navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+.navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #04AA6D;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*OFFERS1............................................................................................................................................................*/
+  
+body {
+    font-family: Arial;
+  }
+  
+  .coupon1 {
+    border: 5px dotted #bbb;
+    width: 80%;
+    border-radius: 15px;
+    margin: 0 auto;
+    max-width: 600px;
+    position: absolute;
+    top: 200px;
+    left: 1300px;
+  }
+  
+  .container1 {
+    padding: 2px 16px;
+    background-color: #f1f1f1;
+  }
+  
+  .promo1 {
+    background: #ccc;
+    padding: 3px;
+  }
+  
+  .expire1 {
+    color: red;
+  }
+
+  /*OFFERS2............................................................................................................................................................*/
+  
+body {
+    font-family: Arial;
+  }
+  
+  .coupon2 {
+    border: 5px dotted #bbb;
+    width: 80%;
+    border-radius: 15px;
+    margin: 0 auto;
+    max-width: 600px;
+    position: absolute;
+    top: 200px;
+    left: 660px;
+    
+    
+  }
+  
+  .container2 {
+    padding: 2px 16px;
+    background-color: #f1f1f1;
+  }
+  
+  .promo2 {
+    background: #ccc;
+    padding: 3px;
+  }
+  
+  .expire2 {
+    color: red;
+  }
+
+    /*OFFERS3............................................................................................................................................................*/
+  
+body {
+    font-family: Arial;
+  }
+  
+  .coupon3 {
+    border: 5px dotted #bbb;
+    width: 80%;
+    border-radius: 15px;
+    margin: 0 auto;
+    max-width: 600px;
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    
+    
+  }
+  
+  .container3 {
+    padding: 2px 16px;
+    background-color: #f1f1f1;
+  }
+  
+  .promo3 {
+    background: #ccc;
+    padding: 3px;
+  }
+  
+  .expire3 {
+    color: red;
+  }
+  h4{
+    font-size: 40px;
+    font-family:"lucida handwriting",cursive;
+  }
